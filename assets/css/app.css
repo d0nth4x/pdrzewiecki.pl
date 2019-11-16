@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Lato:300,400&display=swap');
+
+body {
+    background-color: #fff;
+}
+
+.panel-left {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.panel-left .hello{
+    color: #dc3545;
+}
+
+.content{
+    font-family: 'Lato', sans-serif;
+}
+
+.contact{
+    font-size: 4em
+}
+
+.contact a,
+.contact a:visited,
+.contact a:hover,
+.contact a:active
+{
+    color: #000 !important;
+    border:none;
+    text-decoration: none;
+}
