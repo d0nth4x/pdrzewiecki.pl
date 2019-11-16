@@ -1,0 +1,101 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello MainController!{% endblock %}
+
+{% block body %}
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3>About me</h3>
+                <p>
+                    Doloribus cum alias quod praesentium voluptatum quod modi. Est ratione repellendus odio cupiditate
+                    similique. Eius consequuntur sint quia natus sunt cumque quis qui. Velit sint eos velit inventore.
+                    Voluptas libero qui quae. Numquam eum et sed quas officia amet aliquam
+                </p>
+
+                <h3>Stay in touch</h3>
+                <div class="contact text-center">
+                    <a href="https://github.com/d0nth4x">
+                        <i class="fab fa-github-alt"></i>
+                    </a>
+
+                    <a href="https://twitter.com/d0nth4x">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+
+                    <a href="mailto:nobody@example.com" id="mail">
+                        <i class="fas fa-at"></i>
+                    </a>
+                </div>
+
+                <h3>My GPG key</h3>
+                <pre class="pre-scrollable">
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+yCM=
+=Zwlp
+-----END PGP PUBLIC KEY BLOCK-----
+
+                </pre>
+
+                <h3>Recent project</h3>
+                <p>
+                    <a href="https://filmocracy.com/" class="link">Filmocracy.com</a>
+                </p>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block js %}
+    {{ parent() }}
+    {{ encore_entry_script_tags('main') }}
+{% endblock %}
